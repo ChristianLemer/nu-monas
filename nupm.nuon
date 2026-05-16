@@ -1,0 +1,12 @@
+{
+    name: "nu-monas"
+    version: "0.1.0"
+    type: "module"
+    nu-version: ">=0.102.0"
+    author: "Christian Lemer"
+    license: "MIT"
+    short-description: "Monadic types (Option, Result, Validation) for safe Nushell pipelines"
+    url: "https://github.com/ChristianLemer/nu-monas"
+    keywords: ["monad", "option", "result", "validation", "functional", "pipeline", "dataframe"]
+    supported-os: { arch: ["*"], family: ["*"], name: ["*"] }
+}
