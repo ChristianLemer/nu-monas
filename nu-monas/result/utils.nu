@@ -16,7 +16,7 @@ export def validate-result [] {
     if (not ($input.type in [ok, err])) {
         error make {
             msg: "Called Result function on non-Result value"
-            label: {text: $"Expected Result \\(ok/err\\), got type '($input.type)'. Use 'ok' to wrap success values"}
+            label: {text: $"Expected Result \(ok/err\), got type '($input.type)'. Use 'ok' to wrap success values"}
         }
     }
     

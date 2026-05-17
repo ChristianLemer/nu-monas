@@ -20,7 +20,7 @@ def validate-option [] {
     if (not ($input.type in ["some", "none"])) {
         error make {
             msg: "Called Option function on non-Option value"
-            label: {text: $"Expected Option \\(some/none\\), got type '($input.type)'. Use 'some' to wrap regular values"}
+            label: {text: $"Expected Option \(some/none\), got type '($input.type)'. Use 'some' to wrap regular values"}
         }
     }
     

@@ -1,0 +1,14 @@
+{
+  "name": "nu-monas",
+  "owner": {
+    "name": "Christian Lemer",
+    "url": "https://github.com/ChristianLemer"
+  },
+  "plugins": [
+    {
+      "name": "nu-monas",
+      "source": "./plugins/nu-monas",
+      "description": "Skills for safe pipeline composition with monadic types (Option, Result, Validation) in Nushell."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "nu-monas",
+  "description": "Monadic types for Nushell — Option, Result, Validation. Guides type selection, construction, transformation, and extraction patterns.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Christian Lemer",
+    "url": "https://github.com/ChristianLemer"
+  },
+  "repository": "https://github.com/ChristianLemer/nu-monas",
+  "license": "MIT",
+  "keywords": [
+    "nushell",
+    "monads",
+    "option",
+    "result",
+    "validation",
+    "functional",
+    "pipeline",
+    "error-handling"
+  ]
+}

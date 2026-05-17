@@ -40,7 +40,7 @@ def validate-validation [] {
     if (not ($input.type in ["success", "failure", "warning", "skipped"])) {
         error make {
             msg: "Called Validation function on non-Validation value"
-            label: {text: $"Expected Validation \\(success/failure/warning/skipped\\), got type '($input.type)'. Use constructors to create Validation"}
+            label: {text: $"Expected Validation \(success/failure/warning/skipped\), got type '($input.type)'. Use constructors to create Validation"}
         }
     }
 
