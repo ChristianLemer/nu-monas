@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Nushell
+        uses: hustcer/setup-nu@v3
+        with:
+          version: "0.112.2"
+
+      - name: Clone nutest
+        run: git clone https://github.com/vyadh/nutest.git /tmp/nutest
+
+      - name: Run tests
+        run: nu --no-config-file -c "use /tmp/nutest/nutest; nutest run-tests --path nu-monas/ --fail"
