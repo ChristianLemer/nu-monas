@@ -2,7 +2,7 @@
 # Test df homogenize function
 #
 use std/assert
-use .. [homogenize]
+use ../../df [homogenize]
 
 # ============================================================
 # Test Helper Functions

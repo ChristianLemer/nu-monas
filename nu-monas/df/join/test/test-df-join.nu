@@ -3,7 +3,7 @@
 # For Option-aware joins, see option/df/join/test/
 #
 use std/assert
-use .. *
+use ../../../df/join *
 
 # ============================================================
 # Test Data Creation Functions

@@ -6,7 +6,7 @@
 use std/assert
 use ../../option
 use ../../result
-use ../mod.nu *
+use ../../monad *
 use ../../option [traverse]
 use ../../result [traverse]
 

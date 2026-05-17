@@ -2,7 +2,7 @@
 # Test df update function
 #
 use std/assert
-use .. [update]
+use ../../df [update]
 
 # ============================================================
 # Test Helper Functions

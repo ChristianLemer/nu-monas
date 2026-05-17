@@ -2,7 +2,7 @@
 # Test df types function
 #
 use std/assert
-use ..
+use ../../df
 
 # ============================================================
 # Test Functions

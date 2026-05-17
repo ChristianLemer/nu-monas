@@ -4,7 +4,7 @@
 # Test validate-result error structure validation
 #
 use std/assert
-use .. *
+use ../../result *
 use ../utils.nu *
 
 # [test] validates proper error structure with msg

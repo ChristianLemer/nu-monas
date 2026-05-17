@@ -2,8 +2,8 @@
 # Test option df functions
 #
 use std/assert
-use .. [when-not unwrap-or]
-use ../../ [some none]
+use ../../../option/df [when-not unwrap-or]
+use ../../../option [some none]
 
 # ============================================================
 # Test Helper Functions

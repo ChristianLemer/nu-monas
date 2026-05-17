@@ -2,7 +2,7 @@
 # Test validation module
 #
 use std/assert
-use .. *
+use ../../validation *
 
 # ============================================================
 # Constructor Tests

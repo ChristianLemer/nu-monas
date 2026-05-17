@@ -2,7 +2,7 @@
 # Test map1 function
 #
 use std/assert
-use ../
+use ../../result
 
 # ============================================================
 # Test Functions

@@ -2,7 +2,7 @@
 
 # Join utility function tests
 use std/assert
-use ../util.nu *
+use ../../../df/join/util.nu *
 
 # =============================================================================
 # composite-key tests

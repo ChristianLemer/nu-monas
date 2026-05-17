@@ -1,7 +1,7 @@
 #!/usr/bin/env nu
 
 use std/assert
-use ../mod.nu [option-to-result, result-to-option]
+use ../../monad [option-to-result, result-to-option]
 use ../../option [traverse, attempt, some, none]
 use ../../result [traverse, ok, err, safely]
 use ../../option

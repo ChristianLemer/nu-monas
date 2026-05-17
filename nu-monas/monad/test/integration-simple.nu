@@ -3,7 +3,7 @@
 use std/assert
 use ../../option
 use ../../result
-use ../mod.nu [option-to-result, result-to-option]
+use ../../monad [option-to-result, result-to-option]
 
 # =============================================================================
 # OPTION MODULE INTEGRATION TESTS

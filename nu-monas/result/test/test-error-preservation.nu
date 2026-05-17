@@ -2,7 +2,7 @@
 # Test error preservation functionality
 #
 use std/assert
-use ../mod.nu *
+use ../../result *
 
 # ============================================================
 # Test Helper Functions
